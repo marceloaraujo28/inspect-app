@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "a1",
-    "slug": "a1",
+    "name": "WorkInspect",
+    "slug": "WorkInspect",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
