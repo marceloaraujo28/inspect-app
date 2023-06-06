@@ -1,9 +1,5 @@
 {
   "expo": {
-    "androidStatusBar": {
-      "backgroundColor": "transparent",
-      "translucent": true
-    },
     "name": "a1",
     "slug": "a1",
     "version": "1.0.0",
@@ -15,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ccc7c7"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
