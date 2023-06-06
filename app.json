@@ -15,7 +15,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ccc7c7"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -23,7 +25,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.marceloaraujo28.a1"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -35,6 +42,11 @@
           "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "908167a0-f09a-45f4-bba4-4471731764ed"
+      }
+    }
   }
 }
