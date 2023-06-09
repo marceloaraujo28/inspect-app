@@ -10,6 +10,7 @@ import {
 import { Header } from "../components/Header";
 import { interpolate } from "react-native-reanimated";
 import Carousel from "react-native-reanimated-carousel";
+import { ScrollView } from "react-native-gesture-handler";
 
 interface Images {
   src: ImageSourcePropType;
@@ -71,7 +72,7 @@ export function Home() {
         )}
         customAnimation={animationStyle}
       />
-      <View style={styles.content}>
+      <ScrollView style={styles.content} showsVerticalScrollIndicator={false}>
         <Text style={styles.title}>Sobre o aplicativo</Text>
         <Text style={styles.description}>
           {"        "}Adeus às antigas pranchetas e canetas! Agora, com o
@@ -83,7 +84,7 @@ export function Home() {
           inspeções, o WorkInspect é a solução perfeita. Modernize suas práticas
           de inspeção e eleve a qualidade dos seus serviços.
         </Text>
-      </View>
+      </ScrollView>
     </View>
   );
 }
